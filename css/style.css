@@ -1,15 +1,5 @@
 @import '/src/pretendard-gov/web_variable/pretendardvariable-gov-dynamic-subset.css';
 
-@font-face {
-  font-family: 'JSArirang';
-  src:url('/src/JSArirang.woff') format('woff');
-  font-style: normal;
-  font-weight: 400;
-} 
-
-.JSArirang {
-  font-family: 'JSArirang', serif;
-}
 
 /* @import 'reset.css'; */
 @import 'variables.css';
@@ -52,3 +42,14 @@ body::-webkit-scrollbar-track {
 
 
 
+
+@font-face {
+  font-family: 'JSArirang';
+  src:url('/src/JSArirang.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+} 
+
+.JSArirang {
+  font-family: 'JSArirang', serif;
+}
