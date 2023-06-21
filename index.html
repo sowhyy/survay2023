@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <title> 공무원 총조사 </title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+  <!-- Bootstrap CSS Files -->
+  <link href="src/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="src/bootstrap/css/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="src/animate/animate.min.css" rel="stylesheet">
+  <!-- Custom styles -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="gnb container d-flex justify-content-between">
+
+      <!-- ======= logo / svg 형식 / 상단 고정 ======= -->
+      <div class="logo d-flex">
+        <img src="img/logo.svg" style="height: 35px" alt="공무원 총조사 로고" />
+      </div>
+      <!-- ======= nav / 상단 고정 ======= -->
+      <nav id="navbar" class="navbar d-flex">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#ask">ask</a></li>
+          <li><a class="nav-link scrollto" href="#survay">survay</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+        </ul>
+      </nav>
+      <!-- ======= icon / 관리자 / 로그인 아이콘 ======= -->
+      <div class="topicon d-flex justify-content-between">
+        <a href="#">
+          <i class="bi bi-gear-fill" style="font-size: 18px; color:#fff" alt="관리자화면"></i></a>
+        <a href="#">
+          <i class="bi bi-person-fill" style="font-size: 18px; color:#fff" alt="로그인"></i></a>
+        <!-- <a href="#">
+        <i class="bi bi-person-circle" style="font-size: 18px; color:#fff" alt="접속중"></i></a>
+      <a href="#">
+        <i class="bi bi-person" style="font-size: 18px; color:#fff" alt="로그아웃"></i></a> -->
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= hero / 카드 뉴스 ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="background-image: url(img/bg/Windows11_10.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h4 class="animate__animated animate__fadeInDown">조사목적 </h4>
+                <p class="animate__animated animate__fadeInUp">
+                  인사정책의 수립, 운영 및 제도개선을 위한 <br>
+                  기초자료 수집 공직내 인적자원 통계의 <br>
+                  주기별 변동사항 파악 및 활용 <br>
+                </p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">
+                  설문조사 바로가기</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(img/bg/Windows11_11.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h4 class="animate__animated animate__fadeInDown">법적근거</h4>
+                <p class="animate__animated animate__fadeInUp">
+                  국가공무원법 제18조(통계보고)<br>
+                  공무원인사기록·통계 및 인사사무 처리규정 <br>
+                  제36조(전체공무원 통계조사)<br>
+                  지방공무원임용령 제10조의2(통계보고)<br>
+                  지방공무원 인사기록ㆍ통계 및 인사사무 처리 규칙<br>
+                  제26조(전체 공무원 통계조사)<br>
+                </p>
+                <a href="#about" class="btn-get-started scrollto animate__animatedanimate__fadeInUp">
+                  설문조사 바로가기</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(img/bg/Windows11_12.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h4 class="animate__animated animate__fadeInDown">조사대상</h4>
+                <p class="animate__animated animate__fadeInUp">
+                  조사연도의 기준일 현재 재직 중인 국가 및 지방공무원 전체 <br>
+                  ※ 조사대상에 포함되지 않는 공무원 <br>
+                  정무직공무원, 국가정보원직원, <br>
+                  대통령경호처 직원, 군인·군무원, 외국인공무원 <br>
+                  기준일 현재 휴직 및 해외파견중인 공무원
+                  기준일 이전에<br>
+                  퇴직하거나 이후에 임용된 공무원
+                </p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">
+                  설문조사 바로가기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======= Main ======= -->
+
+  <section draggable="false" class="container pt-3">
+    <section class="mb-3 text-center text-md-start">
+      <!-- ======= ask / 상단 진행 사항 ======= -->
+      <div class="progress mx-3 mt-5 mb-3" style="height: 15px">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+          aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+      </div>
+      <!-- ======= ask / 상단 공지?? ======= -->
+      <section draggable="false" class="container pt-3">
+        <section class="mb-5">
+          <div id="ask" class="accordion mt-3">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  공무원 총조사
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  직전에 수행한 공무원총조사의 조사항목을 바탕으로 각 중앙행정기관 및 지방자치단체 등의 의견을 수렴하여 조사항목을 결정. <br>
+                  일반(8), 병역(1), 임용(7), 학력(3), 자격(3), 교육훈련(3), 경력(1), 외국어·정보화(2), 가족·자녀(6), 통근·복지(10), 퇴직준비(4), 복무(2),
+                  주택(2)
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  기본 방향 < 인사기록 활용 및 개인정보 보호>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  전자인사기록 활용으로 응답자의 응답 부담을 최소화함과 동시에, 조사결과의 신뢰성을 제고 개인 식별이 불가능하도록 공무원총조사 시스템을 구현. <br>
+                  전자인사기록 활용방식과 직접 응답방식 병행<br>
+                  재직기간, 전보횟수 등 즉답이 어려운 임용사항은 전자인사기록을 활용하여 자동 응답하고 나머지 항목은 총조사 시스템에서 직접 응답<br>
+                  전자인사기록 미활용 기관은 응답자가 총조사 시스템에 접속하여 직접 모든 항목에 입력<br>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </section>
+    </section>
+  </section>
+
+
+
+
+  <main id="main">
+<!-- ======= 라디오 버튼 ======= -->
+    <section draggable="false" class="container pt-3">
+      <section id="survay" class="">
+        <div class="survay-header row d-flex justify-content-between ">
+          <span class="question">01 질문 / 라디오 버튼 </span>
+        </div>
+
+        <div class="survay-item row d-flex justify-content-around">
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                01 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                02 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+              <label class="form-check-label" for="flexRadioDefault3">
+                03 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+              <label class="form-check-label" for="flexRadioDefault4">
+                04 답변
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+              <label class="form-check-label" for="flexRadioDefault5">
+                05 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
+              <label class="form-check-label" for="flexRadioDefault6">
+                06 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
+              <label class="form-check-label" for="flexRadioDefault7">
+                07 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8">
+              <label class="form-check-label" for="flexRadioDefault8">
+                08 답변
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault9">
+              <label class="form-check-label" for="flexRadioDefault9">
+                09 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault10">
+              <label class="form-check-label" for="flexRadioDefault10">
+                10 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault11">
+                11 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault12">
+              <label class="form-check-label" for="flexRadioDefault12">
+                12 답변
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </section>
+
+<!-- ======= 체크 박스 ======= -->    
+    <section draggable="false" class="container pt-3">
+      <section id="survay" class="">
+        <div class="survay-header row d-flex justify-content-between ">
+          <span class="question">02 질문 / 체크박스 / 중복 선택 </span>
+        </div>
+
+        <div class="survay-item row d-flex justify-content-around">
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault1">
+              01 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault2">
+                02 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault3">
+                03 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault4">
+                04 답변
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault5">
+                05 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault6">
+                06 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault7">
+                07 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault8">
+                08 답변
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault9">
+                09 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault10">
+                10 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault11">
+                11 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault12">
+                12 답변
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </section>
+
+<!-- ======= 라디오 / 기타 ======= -->
+    <section draggable="false" class="container pt-3">
+      <section id="survay" class="">
+        <div class="survay-header row d-flex justify-content-between ">
+          <span class="question">03 질문 / 라디오 버튼 / 기타 혼합</span>
+        </div>
+
+        <div class="survay-item row d-flex justify-content-around">
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                01 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                02 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+              <label class="form-check-label" for="flexRadioDefault3">
+                03 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+              <label class="form-check-label" for="flexRadioDefault4">
+                04 답변
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+              <label class="form-check-label" for="flexRadioDefault5">
+                05 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
+              <label class="form-check-label" for="flexRadioDefault6">
+                06 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
+              <label class="form-check-label" for="flexRadioDefault7">
+                07 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8">
+              <label class="form-check-label" for="flexRadioDefault8">
+                08 답변
+              </label>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault9">
+              <label class="form-check-label" for="flexRadioDefault9">
+                09 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault10">
+              <label class="form-check-label" for="flexRadioDefault10">
+                10 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-around">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault11">
+                11 답변
+              </label>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="survay-body d-flex justify-content-evenly align-items-center">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="12 기타">
+              <datalist id="datalistOptions">
+                <option value="San Francisco">
+                <option value="New York">
+                <option value="Seattle">
+                <option value="Los Angeles">
+                <option value="Chicago">
+              </datalist>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </section>
+
+
+<!-- ======= 체크박스 / 기타 ======= -->    
+<section draggable="false" class="container pt-3">
+  <section id="survay" class="">
+    <div class="survay-header row d-flex justify-content-between ">
+      <span class="question">04 질문 / 체크박스 / 기타 혼합 </span>
+    </div>
+
+    <div class="survay-item row d-flex justify-content-around">
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault1">
+          01 답변
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault2">
+            02 답변
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault3">
+            03 답변
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault4">
+            04 답변
+          </label>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault5">
+            05 답변
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault6">
+            06 답변
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault7">
+            07 답변
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault8">
+            08 답변
+          </label>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault9">
+            09 답변
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault10">
+            10 답변
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-around">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault11">
+            11 답변
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="survay-body d-flex justify-content-evenly align-items-center">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="12 기타">
+          <datalist id="datalistOptions">
+            <option value="San Francisco">
+            <option value="New York">
+            <option value="Seattle">
+            <option value="Los Angeles">
+            <option value="Chicago">
+          </datalist>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+</section>
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="footer-area d-flex justify-content-center">
+      <div class="container">
+        <div class="row">
+          <!-- ======= Footer / 좌측 ======= -->
+          <div class="col-md-4">
+            <div class="footer-content d-flex">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2>공무원총조사</h2>
+                </div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                  eaque ipsa quae ab illo inventore veritatis.</p>
+              </div>
+            </div>
+          </div>
+          <!-- ======= Footer / 우측 ======= -->
+          <div class="col-md-6">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h3>인사혁신처</h3>
+                <p>세종특별자치시 정부세종2청사 13 (나성동772) 인사혁신처 3층 30128</p>
+                <div class="footer-contacts">
+                  <p><span>Time:</span> 9am-6pm</p>
+                  <p><span>Tel:</span> +123 456 789</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i></a>
+
+
+  <!-- Bootstrap JS Files -->
+  <script type="text/javascript" src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Vendor CSS Files -->
+  <script type="text/javascript" src="js/jquery-3.7.0.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

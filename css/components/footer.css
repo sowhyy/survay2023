@@ -1,0 +1,32 @@
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer-area {
+  background: #f8f8f8;
+}
+
+.footer-logo h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: var(--gok-Blue-900);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.footer-head h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: var(--gok-Blue-900);
+}
+
+.footer-contacts p span {
+  color: var(--gok-Blue-900);
+  font-weight: 600;
+  line-height: 0.5;
+}
+
+.footer-contacts p  {
+  line-height: 0.5;
+}
+
