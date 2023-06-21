@@ -42,14 +42,13 @@ body::-webkit-scrollbar-track {
 
 
 
-
 @font-face {
   font-family: 'JSArirang';
   src:url('/src/JSArirang.woff') format('woff');
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
 } 
 
 .JSArirang {
-  font-family: 'JSArirang', serif;
+  font-family: 'JSArirang';
 }
