@@ -6,7 +6,7 @@
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(0,55,100,.5);
+  background: rgba(0,55,100, .2);
 }
 
 #header.header-scrolled {
@@ -32,9 +32,6 @@
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/*
-  Desktop Navigation 
-*/
 .gnb .logo {
   float: left;
 }
